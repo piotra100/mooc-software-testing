@@ -67,7 +67,7 @@ public class Echo {
         result = String.join(" ", operands);
 
         if (trailingNewLine) {
-            result += "\n";
+            result = result + "\n";
         }
 
         return this;
